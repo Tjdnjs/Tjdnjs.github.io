@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Park Seo Won"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **developing** person."
+  bio              : "I am **developing** person."
   location         : "South Korea"
   # email            : 2seowon@naver.com
   links:
