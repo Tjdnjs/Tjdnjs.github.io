@@ -45,3 +45,8 @@ tag: [dreamhack, webhacking]
 <img src = "/images/webbackground/5.png">
 <br><br>
 nslookup을 통해 알아낸 네이버의 IP 주소 중 패킷에 캡쳐된 주소가 223.130.200.104였기에, 이를 필터링하여 확인해보았다. TCP와 TLSv1.3 프로토콜을 통한 통신이 일어나는 것으로 보아, 가상머신과 네이버 간 통신이 암호화되어 전송되는 것을 알 수 있다
+
+### 웹 렌더링
+<img src = "/images/webbackground/8.jpg">
+<br><br>
+**파싱** : 프로그램에서 나타나는 문자열을 해당 언어의 문법에 맞게 구문 분석 트리로 구성하는 일
