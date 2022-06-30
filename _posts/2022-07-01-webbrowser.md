@@ -1,11 +1,11 @@
 ---
 layout : single
-title : "STAGE2. Background - web (3)"
+title : "STAGE2. Background - web (4)"
 categories: Security
 tag: [dreamhack, webhacking]
 ---
 
-## Tools : Browser DevTools
+## 드림핵 웹 기본상식 - Tools : Browser DevTools
 
 웹 개발을 하며 발생하는 버그, 마음에 들지 않는 css가 있을 경우, 코드 에디터와 브라우저를 오가며 수정을 반복해야 함
 <br>
