@@ -2,7 +2,7 @@
 layout : single
 title : "STAGE3. Cookie & Session (2)"
 categories: Security
-tag: [dreamhack, webhacking]
+tag: [dreamhack, webhacking, wargame]
 sidebar:
     nav: "docs"
 ---
