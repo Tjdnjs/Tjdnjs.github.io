@@ -6,7 +6,7 @@ tag: [dreamhack, webhacking]
 sidebar:
     nav: "docs"
 ---
-# 드림핵 웹 Cookie & Session
+# Web Hacking - Cookie & Session
 웹 서비스는 로그인을 통해 마이페이지, 유로 서비스 등 개인에 해당하는 서비스를 이용한다. 웹 서버는 수많은 클라이언트와 HTTP 프로토콜을 통해 통신하며 손님 / 관리자 등 방문자의 성격에 맞는 서비스를 제공해야한다.
 웹 서버는 클라이언트의 인증 정보를 통해 클라이언트들을 구분하는데, 이 정보를 포함하는 것이 Cookie와 Session이다.
 

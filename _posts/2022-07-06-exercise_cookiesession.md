@@ -6,7 +6,7 @@ tag: [dreamhack, webhacking, wargame]
 sidebar:
     nav: "docs"
 ---
-# 드림핵 웹 [함께실습] Cookie
+# Web Hacking [함께실습] Cookie
 ## 웹 서비스 분석
 ### 엔드포인트 : /
 index 페이지를 구성하는 코드로, 해당 페이지에서는 요청에 포함된 쿠키를 통해 이용자를 식별하며, 쿠키에 전재하는 username이 admin일 경우 FLAG를 출력한다

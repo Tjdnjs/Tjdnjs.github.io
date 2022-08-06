@@ -6,7 +6,7 @@ tag: [dreamhack, webhacking]
 sidebar:
     nav: "docs"
 ---
-## 드림핵 웹 기본상식 - Background : Web Brower
+## Web Hacking - Background : Web Brower
 <img src = "/images/webbackground/6.jpg">
 
 ### Domain Name
