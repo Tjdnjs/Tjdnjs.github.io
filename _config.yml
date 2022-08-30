@@ -200,9 +200,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 3 # amount of posts to show
+paginate: 4 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul
+# timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)

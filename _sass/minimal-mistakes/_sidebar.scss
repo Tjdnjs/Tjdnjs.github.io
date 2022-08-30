@@ -7,6 +7,7 @@
    ========================================================================== */
 
 .sidebar {
+  margin-top: 1em;
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -18,7 +19,8 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    // width: calc(#{$right-sidebar-width-narrow} - 1em);
+    width: calc(#{$right-sidebar-width} - 1em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -32,7 +34,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      max-height: calc(100vh - #{$nav-height} - 4em);
     }
   }
 
@@ -85,9 +87,9 @@
 
     &.sticky {
       @include clearfix();
-      position: -webkit-sticky;
-      position: sticky;
-      top: 2em;
+      // position: -webkit-sticky;
+      position: fixed;
+      top: 4em;
       float: right;
 
       .toc {
