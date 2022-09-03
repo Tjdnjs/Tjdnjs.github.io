@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "STAGE2. Background - web (3)"
+title : "[Dreamhack] STAGE2. Background - web (3)"
 categories: web-hacking
 tag: [dreamhack, webhacking]
 sidebar:
