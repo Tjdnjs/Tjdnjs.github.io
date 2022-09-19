@@ -55,8 +55,8 @@
         <span class="nav__sub-title">Server</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "serverbasic" %}
-                        <li><a href="/categories/serverbasic" class="">Server Basic ({{category[1].size}})</a></li>
+                    {% if category[0] == "flask" %}
+                        <li><a href="/categories/flask" class="">flask ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -73,8 +73,8 @@
         <span class="nav__sub-title">Dev</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "dev" %}
-                        <li><a href="/categories/dev" class="">dev ({{category[1].size}})</a></li>
+                    {% if category[0] == "hup" %}
+                        <li><a href="/categories/hup" class="">H-UP 2022.09 ~ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
