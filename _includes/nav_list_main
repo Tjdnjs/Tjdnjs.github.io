@@ -60,12 +60,19 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "nodejs" %}
+                        <li><a href="/categories/nodejs" class="">Node.js ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
         <span class="nav__sub-title">Database</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mysql" %}
-                        <li><a href="/categories/mysql" class="">MYSQL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/mysql" class="">MySQL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
