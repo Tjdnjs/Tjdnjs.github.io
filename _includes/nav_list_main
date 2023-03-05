@@ -22,7 +22,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "web-hacking-advanced" %}
-                        <li><a href="/categories/web-hacking-advanced" class="">Web Hacking-advanced ({{category[1].size}})</a></li>
+                        <li><a href="/categories/web-hacking-advanced" class="">Web Hacking-Advanced ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -55,8 +55,15 @@
         <span class="nav__sub-title">Server</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "server" %}
+                        <li><a href="/categories/server" class="">Server Basic ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "flask" %}
-                        <li><a href="/categories/flask" class="">flask ({{category[1].size}})</a></li>
+                        <li><a href="/categories/flask" class="">Flask ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -108,6 +115,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
       </li>
   </ul>
 </nav>
